@@ -23,7 +23,6 @@ body:
       label: Other package or project
       description: The NuGet package or project your issue is about
       placeholder: Name of (or a URL to) the package or project
-      render: shell
 
   - type: textarea
     id: description

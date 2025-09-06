@@ -9,3 +9,10 @@ body:
       for a new feature or enhancement.
 
       You can read about other ways to contribute [here](https://github.com/npp-dotnet/.github/blob/main/CONTRIBUTING.md).
+
+- type: checkboxes
+  attributes:
+    label: Confirmation
+    options:
+      - label: I have read the instructions above and will start a discussion as requested.
+        required: true
