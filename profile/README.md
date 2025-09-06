@@ -11,4 +11,4 @@ The availability of modern .NET frameworks on end-user machines is not the entir
 
 This organization is a laboratory for experimental projects looking to bridge the gap between a legacy code base and cutting-edge tooling. The goal is to enable future plugin authors to start new projects as easily as typing `dotnet new ...` into a terminal.
 
-We hope you can help out!
+To learn more, read about [how you can contribute](../CONTRIBUTING.md), or browse the [NuGet feed](https://www.nuget.org/profiles/Npp.NET).

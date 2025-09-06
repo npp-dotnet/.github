@@ -1,0 +1,11 @@
+name: Feature request
+description: Suggest a new feature or enhancement.
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      Please [start a discussion](https://github.com/orgs/npp-dotnet/discussions/new) if you have an idea
+      for a new feature or enhancement.
+
+      You can read about other ways to contribute [here](https://github.com/npp-dotnet/.github/blob/main/CONTRIBUTING.md).

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussion Forum
+    url: https://github.com/orgs/npp-dotnet/discussions
+    about: Please start a discussion if you have a feature request or a question.

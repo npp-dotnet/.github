@@ -1,0 +1,74 @@
+name: Bug Report
+description: Open a new issue.
+assignees:
+  - npp-dotnet/maintainers
+
+body:
+  - type: dropdown
+    id: package
+    attributes:
+      label: Affected package
+      description: Which NuGet package is your issue about?
+      options:
+        - Npp.DotNet.Plugin
+        - Npp.DotNet.Templates
+        - other (please fill in the next field)
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: other
+    attributes:
+      label: Other package or project
+      description: The NuGet package or project your issue is about
+      placeholder: Name of (or a URL to) the package or project
+      render: shell
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Issue description
+      description: What is the issue?
+      placeholder: A brief and concise description of the issue.
+      value: A brief and concise description of the issue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Describe what you were doing when the issue happened
+      placeholder: |
+        1. ....
+        2. ....
+        3. ....
+      value: |
+        1. ....
+        2. ....
+        3. ....
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sdk-version
+    attributes:
+      label: Affected .NET version(s)
+      description: Which .NET version(s) are you using?
+      multiple: true
+      options:
+        - 8
+        - 9
+        - 10 (preview)
+        - 10 (LTS)
+        - 11 (preview)
+        - 11
+      default: 1
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: .NET environment info
+      description: Run `dotnet --info` at the command line and paste the complete output
+      render: shell
