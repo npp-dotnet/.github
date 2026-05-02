@@ -17,7 +17,7 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: other
     attributes:
       label: Other package or project
@@ -59,11 +59,13 @@ body:
       options:
         - 8
         - 9
-        - 10 (preview)
-        - 10 (LTS)
+        - 10
         - 11 (preview)
         - 11
-      default: 1
+        - 12 (preview)
+        - 12
+        - other
+      default: 2
 
   - type: textarea
     id: environment
